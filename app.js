@@ -30,3 +30,27 @@ if(num1 %2 == 0){
 }else{
     console.log("El numero ingresado es impar");
 }
+
+// Desarrollar un script que imprima en la consola el número mayor, de tres numeros ingresados.
+
+const numero1 = 14;
+const numero2 = 34;
+const numero3 = 203;
+
+if(numero1 > numero2 && numero1 > numero3){
+    console.log(`numero1 = ${numero1}, numero2 = ${numero2}, numero3 = ${numero3}. El mayor numero de los numeros ingresados es el numero 1`);
+} else if(numero2 > numero1 && numero2 > numero3){
+    console.log(`numero1 = ${numero1}, numero2 = ${numero2}, numero3 = ${numero3}. El mayor numero de los numeros ingresados es el numero 2`);
+} else if(numero3 > numero1 && numero3 > numero2){
+    console.log(`numero1 = ${numero1}, numero2 = ${numero2}, numero3 = ${numero3}. El mayor numero de los numeros ingresados es el numero 3`);
+}
+
+//Desarrollar un script que imprima en la consola si o número ingresado es negativo o positivo
+
+const numIngresado = 23;
+
+if( numIngresado < 0){
+    console.log("El numero ingresado es negativo");
+}else{
+    console.log("El numero ingresado es positivo");
+}
