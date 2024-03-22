@@ -1,5 +1,6 @@
 // Buscar objetos por propiedad: Hacer una función que tome 3 parametros:  una collection, una propiedad y el valor a buscar dentro de esa propiedad. Debe devolver un array con los objetos que tengan esa propiedad igual al valor indicado por parametro
 
+
 function buscarObjetoXPropiedad(collection,property,value){
 
     return collection.filter(collection => collection[property] === value);
@@ -75,3 +76,4 @@ function main(){
 }
 
 main();
+
